@@ -6,6 +6,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using TL2_TP2.Models;
+using Microsoft.Extensions.Logging;
 
 namespace TL2_TP2.Controllers
 {
@@ -16,10 +17,12 @@ namespace TL2_TP2.Controllers
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
+            _logger.LogDebug(1, "NLog injected into HomeController");
         }
 
         public IActionResult Index()
         {
+            _logger.LogInformation("Hello, this is the index!");
             return View();
         }
 
