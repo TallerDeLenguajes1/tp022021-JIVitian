@@ -6,7 +6,6 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using TL2_TP2.Models;
-using Microsoft.Extensions.Logging;
 
 namespace TL2_TP2.Controllers
 {
@@ -27,6 +26,11 @@ namespace TL2_TP2.Controllers
         }
 
         public IActionResult Privacy()
+        {
+            return View();
+        }
+
+        public IActionResult Employee()
         {
             return View();
         }

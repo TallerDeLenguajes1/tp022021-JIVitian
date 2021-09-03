@@ -1,0 +1,21 @@
+2021-09-02 17:16:15.8571 Info Message Template Auto Format enabled
+2021-09-02 17:16:16.0266 Info Loading assembly: NLog.Web.AspNetCore
+2021-09-02 17:16:16.2485 Info Adding target FileTarget(Name=allfile)
+2021-09-02 17:16:16.3626 Info Adding target FileTarget(Name=ownFile-web)
+2021-09-02 17:16:16.3626 Warn Skipping unrecognized property 'tolower=true` for ${level} (NLog.LayoutRenderers.LevelLayoutRenderer)
+2021-09-02 17:16:16.3681 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2021-09-02 17:16:16.8247 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=69, FilePath=C:\Users\jivit\Desktop\Mis Cosas\Facultad\Licenciatura En Informatica\2do Anio\Taller de Lenguajes 2\Practica\TP2-Vitian\TL2-TP2\TL2-TP2\bin\Debug\net5.0\nlog.config
+2021-09-03 16:27:13.9850 Info Message Template Auto Format enabled
+2021-09-03 16:27:14.0458 Info Loading assembly: NLog.Web.AspNetCore
+2021-09-03 16:27:14.2042 Info Adding target FileTarget(Name=allfile)
+2021-09-03 16:27:14.2403 Info Adding target FileTarget(Name=ownFile-web)
+2021-09-03 16:27:14.2403 Warn Skipping unrecognized property 'tolower=true` for ${level} (NLog.LayoutRenderers.LevelLayoutRenderer)
+2021-09-03 16:27:14.2439 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2021-09-03 16:27:14.3546 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=69, FilePath=C:\Users\jivit\Desktop\Mis Cosas\Facultad\Licenciatura En Informatica\2do Anio\Taller de Lenguajes 2\Practica\TP2-Vitian\TL2-TP2\TL2-TP2\bin\Debug\net5.0\nlog.config
+2021-09-03 17:21:59.0318 Info Message Template Auto Format enabled
+2021-09-03 17:21:59.1086 Info Loading assembly: NLog.Web.AspNetCore
+2021-09-03 17:21:59.3344 Info Adding target FileTarget(Name=allfile)
+2021-09-03 17:21:59.4790 Info Adding target FileTarget(Name=ownFile-web)
+2021-09-03 17:21:59.4790 Warn Skipping unrecognized property 'tolower=true` for ${level} (NLog.LayoutRenderers.LevelLayoutRenderer)
+2021-09-03 17:21:59.4790 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2021-09-03 17:21:59.5829 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=69, FilePath=C:\Users\jivit\Desktop\Mis Cosas\Facultad\Licenciatura En Informatica\2do Anio\Taller de Lenguajes 2\Practica\TP2-Vitian\TL2-TP2\TL2-TP2\bin\Debug\net5.0\nlog.config
