@@ -7,13 +7,13 @@
 <div class="container text-center">
     <h1 class="display-4">Employee</h1>
     <form asp-area="" asp-controller="Employee" asp-action="Show" class="container w-50">
-        <input type="text" class="form-control my-3" placeholder="LastName"/>
-        <input type="text" class="form-control my-3" placeholder="Name"/>
-        <input type="number" class="form-control my-3" placeholder="DNI"/>
-        <input type="date" class="form-control my-3" placeholder="Birthday"/>
-        <input type="text" class="form-control my-3" placeholder="Address"/>
-        <input type="date" class="form-control my-3" placeholder="Entry Date"/>
-        <input type="number" class="form-control my-3" placeholder="Basic Salary"/>
-        <input type="submit" class="btn btn-primary my-3 w-100" value="Send"/>
+        <input type="text" class="form-control my-3" name="LastName" placeholder="LastName"/>
+        <input type="text" class="form-control my-3" name="Name" placeholder="Name"/>
+        <input type="number" class="form-control my-3" name="Dni" placeholder="DNI"/>
+        <input type="date" class="form-control my-3" name="BirthDay" placeholder="Birthday"/>
+        <input type="text" class="form-control my-3" name="Address" placeholder="Address"/>
+        <input type="date" class="form-control my-3" name="EntryDate" placeholder="Entry Date"/>
+        <input type="number" class="form-control my-3" name="BasicSalary" placeholder="Basic Salary"/>
+        <input type="submit" class="btn btn-primary my-3 w-75" value="Send"/>
     </form>
 </div>

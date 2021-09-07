@@ -35,8 +35,6 @@ namespace TL2_TP2.Models
         public float Discount { get => discount; set => discount = value; }
         public float Salary { get => salary; set => salary = value; }
 
-        public Employee() { }
-
         public Employee(int id, string lastName, string name, string dni, DateTime birthDay, string address, DateTime entryDate, float basicSalary)
         {
             this.id = id;

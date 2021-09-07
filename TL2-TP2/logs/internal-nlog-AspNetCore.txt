@@ -82,3 +82,42 @@
 2021-09-07 18:44:45.7344 Warn Skipping unrecognized property 'tolower=true` for ${level} (NLog.LayoutRenderers.LevelLayoutRenderer)
 2021-09-07 18:44:45.7399 Info Adding target ConsoleTarget(Name=lifetimeConsole)
 2021-09-07 18:44:45.8076 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=69, FilePath=C:\Users\jivit\Desktop\Mis Cosas\Facultad\Licenciatura En Informatica\2do Anio\Taller de Lenguajes 2\Practica\TP2-Vitian\TL2-TP2\TL2-TP2\bin\Debug\net5.0\nlog.config
+2021-09-07 20:15:58.2162 Info Message Template Auto Format enabled
+2021-09-07 20:15:58.2565 Info Loading assembly: NLog.Web.AspNetCore
+2021-09-07 20:15:58.4103 Info Adding target FileTarget(Name=allfile)
+2021-09-07 20:15:58.5273 Info Adding target FileTarget(Name=ownFile-web)
+2021-09-07 20:15:58.5483 Warn Skipping unrecognized property 'tolower=true` for ${level} (NLog.LayoutRenderers.LevelLayoutRenderer)
+2021-09-07 20:15:58.5620 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2021-09-07 20:15:58.7027 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=69, FilePath=C:\Users\jivit\Desktop\Mis Cosas\Facultad\Licenciatura En Informatica\2do Anio\Taller de Lenguajes 2\Practica\TP2-Vitian\TL2-TP2\TL2-TP2\bin\Debug\net5.0\nlog.config
+2021-09-07 20:17:52.4974 Info Message Template Auto Format enabled
+2021-09-07 20:17:52.5372 Info Loading assembly: NLog.Web.AspNetCore
+2021-09-07 20:17:52.6482 Info Adding target FileTarget(Name=allfile)
+2021-09-07 20:17:52.6691 Info Adding target FileTarget(Name=ownFile-web)
+2021-09-07 20:17:52.6691 Warn Skipping unrecognized property 'tolower=true` for ${level} (NLog.LayoutRenderers.LevelLayoutRenderer)
+2021-09-07 20:17:52.6691 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2021-09-07 20:17:52.7519 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=69, FilePath=C:\Users\jivit\Desktop\Mis Cosas\Facultad\Licenciatura En Informatica\2do Anio\Taller de Lenguajes 2\Practica\TP2-Vitian\TL2-TP2\TL2-TP2\bin\Debug\net5.0\nlog.config
+2021-09-07 20:18:51.5663 Warn Exception in layout renderer. Exception: Microsoft.AspNetCore.Connections.ConnectionResetException: The client has disconnected
+ ---> System.Runtime.InteropServices.COMException (0x800704CD): Se ha intentado una operación en una conexión de red inexistente. (0x800704CD)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.IIS.Core.IO.AsyncIOOperation.GetResult(Int16 token)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContext.ReadBody()
+   at System.IO.Pipelines.PipeCompletion.ThrowLatchedException()
+   at System.IO.Pipelines.Pipe.GetReadResult(ReadResult& result)
+   at System.IO.Pipelines.Pipe.ReadAsync(CancellationToken token)
+   at System.IO.Pipelines.Pipe.DefaultPipeReader.ReadAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContext.ReadAsync(Memory`1 memory, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.IIS.Core.HttpRequestStream.ReadAsyncInternal(Memory`1 buffer, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.WebUtilities.FileBufferingReadStream.ReadAsync(Memory`1 buffer, CancellationToken cancellationToken)
+   at System.IO.StreamReader.ReadBufferAsync(CancellationToken cancellationToken)
+   at System.IO.StreamReader.ReadToEndAsyncInternal()
+   at NLog.Web.LayoutRenderers.AspNetRequestPostedBody.BodyToString(Stream body)
+   at NLog.Web.LayoutRenderers.AspNetRequestPostedBody.DoAppend(StringBuilder builder, LogEventInfo logEvent)
+   at NLog.Web.LayoutRenderers.AspNetLayoutRendererBase.Append(StringBuilder builder, LogEventInfo logEvent)
+   at NLog.LayoutRenderers.LayoutRenderer.RenderAppendBuilder(LogEventInfo logEvent, StringBuilder builder)
+2021-09-07 20:27:11.2759 Info Message Template Auto Format enabled
+2021-09-07 20:27:11.3378 Info Loading assembly: NLog.Web.AspNetCore
+2021-09-07 20:27:11.4561 Info Adding target FileTarget(Name=allfile)
+2021-09-07 20:27:11.4718 Info Adding target FileTarget(Name=ownFile-web)
+2021-09-07 20:27:11.4739 Warn Skipping unrecognized property 'tolower=true` for ${level} (NLog.LayoutRenderers.LevelLayoutRenderer)
+2021-09-07 20:27:11.4739 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2021-09-07 20:27:11.5334 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=69, FilePath=C:\Users\jivit\Desktop\Mis Cosas\Facultad\Licenciatura En Informatica\2do Anio\Taller de Lenguajes 2\Practica\TP2-Vitian\TL2-TP2\TL2-TP2\bin\Debug\net5.0\nlog.config
