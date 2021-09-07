@@ -1,0 +1,31 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Show Employee";
+}
+@model TL2_TP2.Models.Employee
+
+<table class="table table-bordered">
+    <thead class="thead-dark">
+        <tr>
+            <td>LastName</td>
+            <td>Name</td>
+            <td>Age</td>
+            <td>Antiquity</td>
+            <td>Salary</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>@Model.LastName</td>
+            <td>@Model.Name</td>
+            <td>@Model.Age</td>
+            <td>@Model.Antiquity</td>
+            <td>@Model.Salary</td>
+        </tr>
+    </tbody>
+    <tr>
+        <td></td>
+    </tr>
+</table>

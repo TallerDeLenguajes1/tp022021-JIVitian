@@ -359,4 +359,5 @@ C:\Users\jivit\Desktop\Mis Cosas\Facultad\Licenciatura En Informatica\2do Anio\T
 C:\Users\jivit\Desktop\Mis Cosas\Facultad\Licenciatura En Informatica\2do Anio\Taller de Lenguajes 2\Practica\TP2-Vitian\TL2-TP2\TL2-TP2\obj\Debug\net5.0\ref\TL2-TP2.dll
 C:\Users\jivit\Desktop\Mis Cosas\Facultad\Licenciatura En Informatica\2do Anio\Taller de Lenguajes 2\Practica\TP2-Vitian\TL2-TP2\TL2-TP2\obj\Debug\net5.0\TL2-TP2.pdb
 C:\Users\jivit\Desktop\Mis Cosas\Facultad\Licenciatura En Informatica\2do Anio\Taller de Lenguajes 2\Practica\TP2-Vitian\TL2-TP2\TL2-TP2\obj\Debug\net5.0\TL2-TP2.genruntimeconfig.cache
-C:\Users\jivit\Desktop\Mis Cosas\Facultad\Licenciatura En Informatica\2do Anio\Taller de Lenguajes 2\Practica\TP2-Vitian\TL2-TP2\TL2-TP2\obj\Debug\net5.0\Razor\Views\Employee\Employee.cshtml.g.cs
+C:\Users\jivit\Desktop\Mis Cosas\Facultad\Licenciatura En Informatica\2do Anio\Taller de Lenguajes 2\Practica\TP2-Vitian\TL2-TP2\TL2-TP2\obj\Debug\net5.0\Razor\Views\Employee\Index.cshtml.g.cs
+C:\Users\jivit\Desktop\Mis Cosas\Facultad\Licenciatura En Informatica\2do Anio\Taller de Lenguajes 2\Practica\TP2-Vitian\TL2-TP2\TL2-TP2\obj\Debug\net5.0\Razor\Views\Employee\Show.cshtml.g.cs

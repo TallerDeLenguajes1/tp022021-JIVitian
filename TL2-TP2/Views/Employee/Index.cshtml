@@ -1,10 +1,19 @@
 ﻿@{
     ViewData["Title"] = "Add Employee";
 }
+@model TL2_TP2.Models.Employee
 
-@model List<TL2_TP2.Models.Employee>
 
 <div class="container text-center">
     <h1 class="display-4">Employee</h1>
-    <p>@item.Name</p>
+    <form asp-area="" asp-controller="Employee" asp-action="Show" class="container w-50">
+        <input type="text" class="form-control my-3" placeholder="LastName"/>
+        <input type="text" class="form-control my-3" placeholder="Name"/>
+        <input type="number" class="form-control my-3" placeholder="DNI"/>
+        <input type="date" class="form-control my-3" placeholder="Birthday"/>
+        <input type="text" class="form-control my-3" placeholder="Address"/>
+        <input type="date" class="form-control my-3" placeholder="Entry Date"/>
+        <input type="number" class="form-control my-3" placeholder="Basic Salary"/>
+        <input type="submit" class="btn btn-primary my-3 w-100" value="Send"/>
+    </form>
 </div>

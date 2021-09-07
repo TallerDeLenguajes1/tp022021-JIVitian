@@ -37,6 +37,11 @@ namespace TL2_TP2.Views.Home
             return View();
         }
 
+        public ActionResult Show(Employee employee)
+        {
+            return View(employee);
+        }
+
         // POST: EmployeeController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]

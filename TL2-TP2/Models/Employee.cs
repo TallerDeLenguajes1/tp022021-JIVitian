@@ -7,7 +7,7 @@ namespace TL2_TP2.Models
 {
     public class Employee
     {
-        private int id;
+        private readonly int id;
         private string lastName;
         private string name;
         private string dni;
@@ -21,35 +21,37 @@ namespace TL2_TP2.Models
         private float discount;
         private float salary;
 
-        public int Id { get; }
-        public string LastName { get; set; }
-        public string Name { get; set; }
-        public string Dni { get; set; }
-        public DateTime BirthDay { get; set; }
-        public int Age { get; }
-        public string Address { get; set; }
-        public DateTime EntryDate { get; set; }
-        public int Antiquity { get; }
-        public float BasicSalary { get; set;  }
-        public float Additional { get; }
-        public float Discount { get; }
-        public float Salary { get; }
+        public int Id { get => id;}
+        public string LastName { get => lastName; set => lastName = value; }
+        public string Name { get => name; set => name = value; }
+        public string Dni { get => dni; set => dni = value; }
+        public DateTime BirthDay { get => birthDay; set => birthDay = value; }
+        public int Age { get => age; set => age = value; }
+        public string Address { get => address; set => address = value; }
+        public DateTime EntryDate { get => entryDate; set => entryDate = value; }
+        public int Antiquity { get => antiquity; set => antiquity = value; }
+        public float BasicSalary { get => basicSalary; set => basicSalary = value; }
+        public float Additional { get => additional; set => additional = value; }
+        public float Discount { get => discount; set => discount = value; }
+        public float Salary { get => salary; set => salary = value; }
+
+        public Employee() { }
 
         public Employee(int id, string lastName, string name, string dni, DateTime birthDay, string address, DateTime entryDate, float basicSalary)
         {
             this.id = id;
-            this.lastName = lastName;
-            this.name = name;
-            this.dni = dni;
-            this.birthDay = birthDay;
-            this.address = address;
-            this.entryDate = entryDate;
-            this.basicSalary = basicSalary;
-            this.age = (DateTime.Now - birthDay).Days / 365;
-            this.antiquity = (DateTime.Now - entryDate).Days / 365;
-            this.additional = basicSalary / 100 * antiquity;
-            this.discount = basicSalary * 15 / 100;
-            this.basicSalary = basicSalary + additional - discount;
+            this.LastName = lastName;
+            this.Name = name;
+            this.Dni = dni;
+            this.BirthDay = birthDay;
+            this.Address = address;
+            this.EntryDate = entryDate;
+            this.BasicSalary = basicSalary;
+            this.Age = (DateTime.Now - birthDay).Days / 365;
+            this.Antiquity = (DateTime.Now - entryDate).Days / 365;
+            this.Additional = Antiquity > 20 ? basicSalary * (float) 0.25 : basicSalary * Antiquity / 100;
+            this.Discount = basicSalary * 15 / 100;
+            this.Salary = basicSalary + Additional - Discount;
         }
     }
 }
